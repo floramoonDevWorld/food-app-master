@@ -20,7 +20,6 @@ class Menu extends Component{
 
     }
 
-    // const [menuList, setmenuList] = useState(menuList);
     handleClick(e) {
         let arrnew = this.state.compare.arr;
         let menu = this.state.menuList;
