@@ -1,0 +1,56 @@
+[
+    {
+        "id":  0, 
+        "name": "Tomatoe", 
+        "img": "http://127.0.0.1:5500/src/assets/1.jpg", 
+        "desc":"tomatoes!", 
+        "cost": 3.99, 
+        "price": "$3.99", 
+        "count": 0
+    },
+    {
+        "id": 1, 
+        "name": "Cucumber", 
+        "img": "http://127.0.0.1:5500/src/assets/2.jpg", 
+        "desc":"Cools you..!", 
+        "cost": 2.99, 
+        "price": "$2.99", 
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "Lime", 
+        "img": "http://127.0.0.1:5500/src/assets/3.jpg", 
+        "desc":"Get Vitamin C!", 
+        "cost": 6.99, 
+        "price": "$6.99/6", 
+        "count": 0
+    },
+    {
+        "id": 3, 
+        "name": "Avocado", 
+        "img": "http://127.0.0.1:5500/src/assets/4.jpg", 
+        "desc":"Fiber is good!", 
+        "cost": 1.49, 
+        "price": "$1.49/each", 
+        "count": 0
+    },
+    {
+        "id": 4, 
+        "name": "Mango", 
+        "img": "http://127.0.0.1:5500/src/assets/5.jpg", 
+        "desc":"Yummmmm.!", 
+        "cost": 1.00,
+        "price": "$1.00/each", 
+        "count": 0
+    },
+    {
+        "id": 5, 
+        "name": "Banana", 
+        "img": "http://127.0.0.1:5500/src/assets/6.jpg", 
+        "desc":"Banana!", 
+        "cost": 1.99, 
+        "price": "$1.99/lb", 
+        "count": 0
+    }
+]

@@ -11,12 +11,13 @@ import { createStore, applyMiddleware } from 'redux';
 import { logger } from 'redux-logger';
 import { Provider } from 'react-redux';
 import createSagaMiddleware from 'redux-saga';
+import rootSaga from "./sagas/onLoad.saga"
 import "regenerator-runtime/runtime";
 
 
 const sagaMiddleware = createSagaMiddleware();
 export const store = createStore(reducer, applyMiddleware(sagaMiddleware, logger));
-// sagaMiddleware.run(exampleSaga);
+sagaMiddleware.run(rootSaga);
 
 ReactDOM.render(
     <Provider store={store}>

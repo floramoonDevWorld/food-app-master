@@ -1,9 +1,10 @@
 const reducer = (state = {}, action) => {
     switch (action.type) {
-      case 'GET_ITEMS_LIST':
-           return { ...state, loading: true };
+      case 'MENU_ITEMS_RECEIVED':
+           console.log("reducerrr>>>>>>>>>>");
+           return { ...state, menuList: action.json };
       case 'ITEM_ADDED':
-           return { ...state, news: action.json[0], loading: false }
+           return { ...state, news: action.json[0] }
       default: 
            return state;
     }
