@@ -1,11 +1,6 @@
 import React from "react";
 
 function Order (props){
-// let name = props.name;
-// let img = props.img;
-// let desc = props.desc;
-// let id = props.id;
-
         return(
                 <div className="card" key={props.id} style={{"width": "18rem"}}>
                     <div className="card-body">
@@ -18,13 +13,11 @@ function Order (props){
                              x {props.count}
                         </div>
                         <div className="col-md-4">
-                             = ${props.price}
+                             = ${props.price.toFixed(2)}
                         </div>
                     </div>
-                    </div>
-                    
+                    </div>                    
                 </div>
-
         );
 
 }
